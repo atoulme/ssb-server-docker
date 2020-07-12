@@ -1,0 +1,5 @@
+#!/bin/sh -ex
+
+mkdir -p /root/.ssb
+cp /config /root/.ssb/config
+ssb-server start
